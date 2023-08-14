@@ -1,0 +1,19 @@
+"apple" : "I am a red fruit"
+1: "This is my roll"
+---
+# lists
+- apple
+- mango
+- Apple
+---
+# Block styles
+cities:
+ - new delhi
+ - mumbai 
+ - gujrat
+---
+cities: [new delhi, mumbai]
+---
+{mango: "Yello fruit", age: 56}
+...
+

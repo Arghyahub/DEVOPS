@@ -1,0 +1,35 @@
+# String Variable
+myself: Arghya
+fruit: "apple"
+job: 'swe'
+
+# Write single line in multiple lines
+
+message: >
+This will all be
+in one single line
+
+# same as message: This will all be in one single line
+
+number: 97
+marks: 89.4
+booleanValue: No #n , N, false, False, FALSE
+
+# Specify the type
+
+zero: !!int 0
+positiveNum: !!int 58
+commaValue: !!int +540_000 # 540,000
+expo : 2E10
+
+simpleNumber: !!float 95.4
+not a num: .nan
+
+boolVal: !!bool No
+
+surname: !!null Null # or null NULL ~
+
+date: 2004-02-04
+
+
+
