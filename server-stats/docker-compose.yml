@@ -1,0 +1,9 @@
+services:
+  server-stats:
+    build: .
+    container_name: server-stats
+    # Bind mount: edits to server-stats.sh on the host show up instantly in the container
+    volumes:
+      - ./server-stats.sh:/app/server-stats.sh
+    tty: true
+    stdin_open: true
