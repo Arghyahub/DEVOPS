@@ -104,3 +104,7 @@ PID        COMMAND    %MEM
 
 - **Disk section is empty:** the script greps for a filesystem named `overlay`. On a regular Linux host, change `grep '^overlay'` in `print_disk_parameters` to match your root device (or use `df -h / | tail -n 1`).
 - **`Permission denied`:** run `chmod +x server-stats.sh`.
+
+## Project Credit
+
+https://roadmap.sh/projects/server-stats
